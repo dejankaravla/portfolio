@@ -1,0 +1,87 @@
+.Nav {
+  position: fixed;
+  display: block;
+  top: 11%;
+  left: 90%;
+  z-index: 0;
+  justify-self: right;
+  display: flex;
+  text-align: right;
+}
+
+.Nav ul {
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+  width: 130px;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: auto;
+  background: #266150;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Link {
+  position: sticky;
+  display: block;
+  z-index: 0;
+  color: #fdf8f5;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.Nav a:hover {
+  color: #ddaf94;
+}
+
+.Active {
+  color: teal;
+}
+
+@media (max-width: 600px) {
+  .Nav {
+    display: none;
+  }
+}
+@media (min-width: 601px) and (max-width: 750px) {
+  .Nav {
+    position: fixed;
+    display: block;
+    top: 11%;
+    left: 79%;
+    z-index: 0;
+    justify-self: right;
+    display: flex;
+    text-align: right;
+  }
+}
+@media (min-width: 751px) and (max-width: 900px) {
+  .Nav {
+    position: fixed;
+    display: block;
+    top: 11%;
+    left: 83%;
+    z-index: 0;
+    justify-self: right;
+    display: flex;
+    text-align: right;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+  .Nav {
+    position: fixed;
+    display: block;
+    top: 11%;
+    left: 86%;
+    z-index: 0;
+    justify-self: right;
+    display: flex;
+    text-align: right;
+  }
+}

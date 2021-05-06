@@ -1,0 +1,181 @@
+.Skills {
+  padding: 50px 0;
+  width: 50%;
+  margin: auto;
+}
+
+.DevelopmentSkillsLanguage {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.DevelopmentSkills {
+  margin: auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 15px;
+}
+
+.DevelopmentSkills p,
+.LanguageSkills p {
+  display: block;
+  margin: auto;
+  font-size: 22px;
+  background: #283747;
+  border: none;
+  border-radius: 3px;
+  color: bisque;
+  padding: 12px;
+  transition: 0.3s;
+}
+
+.DevelopmentSkills p:hover,
+.LanguageSkills p:hover {
+  color: white;
+  cursor: default;
+}
+
+.LanguageSkills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Skills h2 {
+  color: #266150;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.Line {
+  height: 1px;
+  background-color: #283747;
+  opacity: 0.3;
+  margin: 30px 0;
+}
+.Skills h1 {
+  font-size: 55px;
+  color: #266150;
+  font-weight: normal;
+}
+
+.Skills h3 {
+  font-weight: normal;
+  font-size: 25px;
+  color: #4f4846;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .Skills {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .DevelopmentSkills {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .LanguageSkills {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Line {
+    margin: 20px 0;
+  }
+
+  .Skills h1 {
+    font-size: 40px;
+  }
+
+  .Skills h3 {
+    font-size: 18px;
+  }
+
+  .Skills h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .Skills p {
+    font-size: 18px;
+  }
+
+  .DevelopmentSkillsLanguage {
+    padding-top: 20px;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .Skills {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .DevelopmentSkillsLanguage {
+    padding-top: 20px;
+    align-items: flex-start;
+    margin-left: 15px;
+    width: 70%;
+  }
+
+  .DevelopmentSkills {
+    display: grid;
+    grid-template-columns: 50% 35% 50% 20%;
+    grid-template-rows: auto;
+    justify-content: start;
+    margin: 0;
+  }
+
+  .LanguageSkills {
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .Line {
+    margin: 20px 0;
+  }
+
+  .Skills h1 {
+    font-size: 40px;
+  }
+
+  .Skills h3 {
+    font-size: 18px;
+    width: 55%;
+    margin: auto;
+  }
+
+  .Skills h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .Skills p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+  .Skills {
+    width: 100%;
+  }
+  .DevelopmentSkills {
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+  }
+
+  .LanguageSkills {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+  }
+}

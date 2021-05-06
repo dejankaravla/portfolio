@@ -1,0 +1,188 @@
+.ProfileInfo {
+  display: flex;
+  flex-direction: column;
+  color: #4f4846;
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.Line {
+  height: 1px;
+  background-color: #283747;
+  opacity: 0.3;
+  margin: 35px 0;
+}
+
+.ProfileInfoSecond {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AboutMe {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-bottom: 30px;
+}
+.ProfileInfoDescripiton {
+  text-align: justify;
+  margin: 0;
+}
+
+.ProfileImage {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ProfileInfo img {
+  max-width: 250px;
+  border-radius: 50%;
+  border: solid 10px #266150;
+}
+
+.ProfileDetails {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.ProfilePersonal {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.ProfilePersonal p {
+  margin: 0;
+}
+
+.Name,
+.Age,
+.Location {
+  margin-bottom: 20px;
+  color: #4f4846;
+}
+
+.ProfileInfo h1 {
+  font-size: 55px;
+  color: #266150;
+  font-weight: normal;
+}
+
+.ProfileInfo h2 {
+  font-size: 30px;
+  color: #266150;
+  text-align: start;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.ProfileInfo h3 {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.ProfileInfo p {
+  font-size: 20px;
+  color: #4f4846;
+}
+
+.Bold {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .ProfileInfo {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ProfileInfo h1 {
+    font-size: 40px;
+  }
+
+  .ProfileInfo h3 {
+    font-size: 20px;
+  }
+
+  .ProfileInfo h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .ProfileInfo p {
+    font-size: 15px;
+  }
+
+  .AboutMe {
+    margin: 0 15px;
+    margin-bottom: 20px;
+  }
+
+  .ProfileInfo img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .ProfileImage {
+    margin: 0 10px;
+  }
+
+  .Name,
+  .Age,
+  .Location {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .ProfileInfo {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ProfileInfoSecond {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .ProfileInfo h1 {
+    font-size: 40px;
+  }
+
+  .ProfileInfo h3 {
+    font-size: 20px;
+  }
+
+  .ProfileInfo h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .ProfileInfo p {
+    font-size: 15px;
+  }
+
+  .AboutMe {
+    margin: 0 15px;
+    margin-bottom: 20px;
+  }
+
+  .ProfileInfo img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .ProfileImage {
+    margin: 0 10px;
+  }
+
+  .Name,
+  .Age,
+  .Location {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,126 @@
+.Contact {
+  background-color: #aaa;
+  padding-top: 50px;
+  height: 100%;
+}
+.Heading {
+  padding-bottom: 40px;
+}
+
+.Line {
+  height: 1px;
+  background-color: #fdf8f5;
+  width: 50%;
+  margin: auto;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  gap: 50px;
+}
+
+.Contact h1 {
+  color: #266150;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.Contact h3 {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.Contact a {
+  font-size: 25px;
+  color: #283747;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.Contact a:hover {
+  color: #266150;
+}
+
+@media (max-width: 600px) {
+  .Contact {
+    padding-top: 20px;
+  }
+
+  .Heading {
+    padding-bottom: 20px;
+  }
+
+  .Line {
+    height: 1px;
+    background-color: blanchedalmond;
+    width: 100%;
+    margin: auto;
+  }
+
+  .Links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Contact h1 {
+    font-size: 40px;
+  }
+
+  .Contact h3 {
+    font-size: 20px;
+  }
+
+  .Contact a {
+    font-size: 20px;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .Contact {
+    padding-top: 20px;
+  }
+
+  .Heading {
+    padding-bottom: 20px;
+  }
+
+  .Line {
+    height: 1px;
+    background-color: blanchedalmond;
+    width: 100%;
+    margin: auto;
+  }
+
+  .Links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Contact h1 {
+    font-size: 40px;
+  }
+
+  .Contact h3 {
+    font-size: 20px;
+    width: 55%;
+    margin: auto;
+  }
+
+  .Contact a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+  .Contact h3 {
+    width: 60%;
+    margin: auto;
+  }
+  .Links {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

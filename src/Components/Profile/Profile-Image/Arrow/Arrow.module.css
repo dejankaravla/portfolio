@@ -1,0 +1,30 @@
+.Link {
+  width: fit-content;
+  margin: auto;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.Animation:hover {
+  color: #266150;
+}
+
+.Animation {
+  color: #fdf8f5;
+  text-decoration: none;
+  animation: pulse infinite 1.3s;
+  transition: 0.3s;
+}
+
+@keyframes pulse {
+  from {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(25%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

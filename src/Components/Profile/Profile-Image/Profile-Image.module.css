@@ -1,0 +1,50 @@
+.Profile {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: black;
+  z-index: 1000;
+}
+.Info {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.Profile h1 {
+  font-size: 60px;
+  color: #fdf8f5;
+  margin: auto;
+  z-index: 1000;
+  padding-top: 7%;
+}
+
+.Profile h3 {
+  color: #fdf8f5;
+  font-size: 30px;
+  z-index: 1000;
+  font-weight: normal;
+}
+
+.Profile img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+}
+
+@media (max-width: 600px) {
+  .Profile {
+    width: 100%;
+  }
+
+  .Profile h1 {
+    font-size: 45px;
+  }
+  .Profile h3 {
+    font-size: 25px;
+    height: 50px;
+  }
+}
