@@ -17,12 +17,9 @@ const ProfileInfo = (props) => (
         <div className={classes.AboutMe}>
           <h2>About me</h2>
           <p className={classes.ProfileInfoDescripiton}>
-            I am a Front End web developer with good knowledge of front-end techniques. I love structure and order and I
-            also stand for quality. I love spending time on fixing little details and optimizing web apps. Also, I like
-            working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.
-            My goal is perfecting my Front End skills by working on harder projects. Also, I would like to learn
-            Node.js, MongoDB, Express.js and others. In due time, I would like to move from Front End to Full Stack
-            development.
+            I am a Front End web developer with good knowledge of front-end techniques. I love spending time on fixing
+            little details and optimizing web apps. Also, I like working in a team, you'll learn faster and much more.
+            As the saying goes: 'two heads are better than one'.
           </p>
         </div>
         <div className={classes.ProfileImage}>

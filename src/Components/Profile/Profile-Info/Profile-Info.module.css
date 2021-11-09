@@ -38,8 +38,8 @@
 
 .ProfileInfo img {
   max-width: 250px;
-  border-radius: 50%;
-  border: solid 10px #266150;
+  border-radius: 20%;
+  border: solid 3px #4f4846;
 }
 
 .ProfileDetails {

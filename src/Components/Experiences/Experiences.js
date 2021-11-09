@@ -12,30 +12,39 @@ const Experiences = (props) => (
       <h3>Careers</h3>
       <div className={classes.Careers}>
         <div className={classes.Work}>
+          <h4>DANITO</h4>
+          <p>April 2021 - Current</p>
+        </div>
+        <div>
+          <p className={classes.Bold}>Front End Web Developer</p>
+          <p className={classes.TextJust}>
+            I was brought on from the start of the project. I was able to help plan the first two websites. I am
+            currently creating an application that will help customers get a rough offer.
+          </p>
+        </div>
+      </div>
+      <div className={classes.Careers}>
+        <div className={classes.Work}>
           <h4>Freelancing</h4>
           <p>July 2020 - Current</p>
         </div>
         <div>
-          <p className={classes.Bold}>Web Developer</p>
-          <p className={classes.TextJust}>
-            I worked on various types of web sites as well as web applications. Currently, for some client, I am
-            developing mobile equipment store web app with seller-buyer interaction, order status and much more. The app
-            is live and in testing mode. You can see it in my projects.
-          </p>
+          <p className={classes.Bold}>Front End Web Developer</p>
+          <p className={classes.TextJust}>I worked on various types of web sites as well as web applications.</p>
         </div>
       </div>
+
       <div className={classes.Careers}>
         <div className={classes.Work}>
           <h4>Star MD</h4>
           <p>June 2014 - September 2020</p>
         </div>
         <div>
-          <p className={classes.Bold}>Owner and General Manager</p>
+          <p className={classes.Bold}>CEO</p>
           <p className={classes.TextJust}>
-            After I worked for 8 years in a footwear production company, I started my own company. I was completely
-            alone and I had to plan everything from scratch. There I have learned to be creative as well as perfectly
-            organised. As I worked as a general manager who had the responsibility of the whole company, the most
-            important skill I have learned is problem solving.
+            Star MD is a company engaged in production of various types of footwear. As a CEO my responsibility was
+            production, sales, distribution and others. Working at this company, I learned to multitask, solve problems
+            daily and sharpened my soft skills. Also, I learned the value of teamwork and working hard.
           </p>
         </div>
       </div>
@@ -60,7 +69,7 @@ const Experiences = (props) => (
       <div className={classes.Careers}>
         <div>
           <h4>Udemy</h4>
-          <p>October 2018 - current</p>
+          <p>October 2019 - current</p>
         </div>
         <div>
           <p className={classes.Bold}>Courses</p>
@@ -68,8 +77,8 @@ const Experiences = (props) => (
             I was always looking for learning new stuff. Udemy is for me a great way to learn new things on my own and
             when the time suits me. A few years back, I learned all about Project Management like Scrum and Agile. Some
             time later I got interested in Web Development. For me Web Development was pretty cool new thing. I was
-            sitting at the computer and making amazing new stuff. I learned HTML, CSS, JavaScript, TypeScript and React.
-            I am currently learning Node.js.
+            sitting at the computer and making amazing new stuff. I learned HTML, CSS, JavaScript, TypeScript, React and
+            other stuff.
           </p>
         </div>
       </div>
