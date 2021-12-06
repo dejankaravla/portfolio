@@ -14,6 +14,9 @@ import DanitoImg from "../../Images/DanitoImg.PNG";
 import DanitoAppImg from "../../Images/DanitoAppImg.PNG";
 import Premier1Img from "../../Images/Premier1.PNG";
 import Premier2Img from "../../Images/Premier2.PNG";
+import Normasoft from "../../Images/Normasoft.PNG";
+import Spartans from "../../Images/Spartans.PNG";
+import Digital from "../../Images/DigitalMind.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -42,6 +45,50 @@ const Projects = (props) => {
               </p>
             </div>
           </li>
+          <li className={classes.PLink}>
+            <a href="https://digital-mind-5b9d7.web.app/" rel="noreferrer" target="_blank">
+              <img src={Digital} alt="Nft store" />
+            </a>
+            <div className={classes.ProjectInfo}>
+              <p className={classes.PText}>NFT store</p>
+              <a href="https://github.com/dejankaravla/digital-mind" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon className={classes.GitHub} size="4x" icon={faGithub} />
+              </a>
+              <p className={classes.ProjectDescription}>
+                NFT store. You can search NFT and see price and other properties. There is more than 600 NFT and you can
+                get all by scrolling down, but you can filter by tag, price, name and others.
+              </p>
+            </div>
+          </li>
+          <li className={classes.PLink}>
+            <a href="https://normasoft-project.web.app/" rel="noreferrer" target="_blank">
+              <img src={Normasoft} alt="Social Network project" />
+            </a>
+            <div className={classes.ProjectInfo}>
+              <p className={classes.PText}>Social network app</p>
+              <a href="https://github.com/dejankaravla/normasoft-project" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon className={classes.GitHub} size="4x" icon={faGithub} />
+              </a>
+              <p className={classes.ProjectDescription}>
+                Social network app for posting, commenting and changing post comments and also deleting.
+              </p>
+            </div>
+          </li>
+          <li className={classes.PLink}>
+            <a href="https://spartans-ee730.web.app/" rel="noreferrer" target="_blank">
+              <img src={Spartans} alt="Git hub repo clone" />
+            </a>
+            <div className={classes.ProjectInfo}>
+              <p className={classes.PText}>Search Github repository</p>
+              <a href="https://github.com/dejankaravla/spartans" rel="noreferrer" target="_blank">
+                <FontAwesomeIcon className={classes.GitHub} size="4x" icon={faGithub} />
+              </a>
+              <p className={classes.ProjectDescription}>
+                Small project for searching github users and their repositories.
+              </p>
+            </div>
+          </li>
+
           <li className={classes.PLink}>
             <a href="https://instagram-clone-eec78.web.app/" rel="noreferrer" target="_blank">
               <img src={Instagram} alt="Instagram Posts Clone" />
